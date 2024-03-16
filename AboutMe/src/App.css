@@ -1,5 +1,7 @@
 #root {
   padding: 1.5rem;
+  background-image: url("./Images/background3.jpg");
+  background-size: cover;
 }
 
 @keyframes logo-spin {

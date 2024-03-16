@@ -3,13 +3,23 @@ export default function Header() {
     <>
       <div className="header-container">
         <div className="left-header-container">
-          <div className="left-header-element">Home</div>
+          <div className="left-header-element">
+            <button>Home</button>
+          </div>
         </div>
         <div className="right-header-container">
-          <div className="right-header-element">About</div>
-          <div className="right-header-element">CV</div>
-          <div className="right-header-element">Projects</div>
-          <div className="right-header-element">Contact</div>
+          <div className="right-header-element">
+            <button>About</button>
+          </div>
+          <div className="right-header-element">
+            <button>CV</button>
+          </div>
+          <div className="right-header-element">
+            <button>Projects</button>
+          </div>
+          <div className="right-header-element">
+            <button>Contact</button>
+          </div>
         </div>
       </div>
     </>
