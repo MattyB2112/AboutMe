@@ -12,7 +12,7 @@ export default function Header() {
                 return isActive
                   ? {
                       borderRadius: "10px",
-                      border: "solid rgb(122, 19, 83)",
+                      borderBottom: "solid rgb(122, 19, 83)",
                       color: "rgb(141, 24, 96)",
                       padding: 8,
                     }
@@ -37,7 +37,7 @@ export default function Header() {
                 return isActive
                   ? {
                       borderRadius: "10px",
-                      border: "solid rgb(122, 19, 83)",
+                      borderBottom: "solid rgb(122, 19, 83)",
                       color: "rgb(141, 24, 96)",
                       padding: 8,
                     }
@@ -60,7 +60,7 @@ export default function Header() {
                 return isActive
                   ? {
                       borderRadius: "10px",
-                      border: "solid rgb(122, 19, 83)",
+                      borderBottom: "solid rgb(122, 19, 83)",
                       color: "rgb(141, 24, 96)",
                       padding: 8,
                     }
@@ -83,7 +83,7 @@ export default function Header() {
                 return isActive
                   ? {
                       borderRadius: "10px",
-                      border: "solid rgb(122, 19, 83)",
+                      borderBottom: "solid rgb(122, 19, 83)",
                       color: "rgb(141, 24, 96)",
                       padding: 8,
                     }
@@ -106,7 +106,7 @@ export default function Header() {
                 return isActive
                   ? {
                       borderRadius: "10px",
-                      border: "solid rgb(122, 19, 83)",
+                      borderBottom: "solid rgb(122, 19, 83)",
                       color: "rgb(141, 24, 96)",
                       padding: 8,
                     }

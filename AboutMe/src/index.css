@@ -1,9 +1,7 @@
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
   background-color: #242424;
 
   font-synthesis: none;
@@ -24,7 +22,7 @@ a:hover {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 517px;
+  height: 608px;
   width: 1000px;
   font-size: 100px;
   font-weight: 400;
@@ -32,18 +30,24 @@ a:hover {
   /* border: solid black; */
   padding: 10px;
   margin: 10px;
-  color: rgb(162, 195, 214);
+  color: rgb(205, 218, 226);
   white-space: initial;
 }
 
 /*HEADER*/
 .header-container {
+  position: fixed;
+  top: 0;
+  height: 100px;
   font-size: 40px;
+  background-color: inherit;
   font-weight: 700;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   display: flex;
   justify-content: space-between;
-  color: rgb(162, 195, 214);
+  color: rgb(205, 218, 226);
+  z-index: 1000;
+  width: 100%;
 }
 .left-header-container {
   /* border: solid black; */
@@ -65,21 +69,23 @@ a:hover {
   margin: 5px;
   padding: 5px;
 }
+
 /*ABOUT*/
 .about-container {
   padding: 10px;
-  height: 532px;
+  height: 543px;
   border: solid black;
+  margin-top: 80px;
 }
 
 .about-header {
   font-size: 80px;
-  color: rgb(162, 195, 214);
+  color: rgb(205, 218, 226);
 }
 
 .about-text {
   font-size: 40px;
-  color: rgb(162, 195, 214);
+  color: rgb(205, 218, 226);
 }
 
 /*CV*/
@@ -90,6 +96,7 @@ a:hover {
   height: 100% !important;
 }
 .pdf-container {
+  margin-top: 80px;
   display: flex;
   justify-content: center;
   text-align: center;
@@ -100,46 +107,104 @@ a:hover {
 
 .cv-header {
   font-size: 80px;
-  color: rgb(162, 195, 214);
+  color: rgb(205, 218, 226);
 }
 
 .cv-text {
   font-size: 40px;
-  color: rgb(162, 195, 214);
+  color: rgb(205, 218, 226);
 }
 
 /*PROJECTS*/
 .projects-container {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
   padding: 10px;
-  height: 532px;
+  height: 100%;
+  width: 1100px;
   border: solid black;
+  justify-content: center;
+  text-align: center;
 }
 
-.projects-header {
-  font-size: 80px;
-  color: rgb(162, 195, 214);
+.project-container {
+  height: 300px;
+  width: 1100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: solid black;
+  justify-content: space-evenly;
 }
 
-.projects-text {
-  font-size: 40px;
-  color: rgb(162, 195, 214);
+.project-image {
+  font-size: 60px;
+  width: 400px;
+  margin: 50px;
+  transition: transform 0.3s ease-in-out;
+}
+.project-image:hover {
+  transform: scale(1.05);
+}
+
+.project-info {
+  text-align: justify;
+  font-size: 20px;
+  padding: 10px;
+  margin: 10px;
+  margin-left: 100px;
+  color: rgb(205, 218, 226);
+  border: solid black;
 }
 
 /*CONTACT*/
 .contact-container {
+  margin-top: 80px;
   padding: 10px;
   height: 532px;
-  border: solid black;
+  /* border: solid black; */
 }
 
 .contact-header {
   font-size: 80px;
-  color: rgb(162, 195, 214);
+  color: rgb(205, 218, 226);
 }
 
 .contact-text {
+  margin-top: 10px;
+  display: flex;
   font-size: 40px;
-  color: rgb(162, 195, 214);
+  color: rgb(205, 218, 226);
+  padding: 10px;
+  align-items: center;
+}
+
+.github-icon {
+  width: 100px;
+  height: auto;
+  transition: transform 0.3s ease-in-out;
+}
+.github-icon:hover {
+  transform: scale(1.1);
+}
+
+.mail-icon {
+  width: 100px;
+  height: auto;
+  transition: transform 0.3s ease-in-out;
+}
+.mail-icon:hover {
+  transform: scale(1.1);
+}
+
+.linkedin-icon {
+  width: 100px;
+  height: auto;
+  transition: transform 0.3s ease-in-out;
+}
+.linkedin-icon:hover {
+  transform: scale(1.1);
 }
 
 body {
@@ -173,7 +238,7 @@ button:hover {
   color: rgb(175, 34, 121);
   background-blend-mode: darken;
   font-weight: bold;
-  border-bottom: solid rgb(175, 34, 121);
+  /* border-bottom: solid rgb(175, 34, 121); */
 }
 
 /* button:focus,

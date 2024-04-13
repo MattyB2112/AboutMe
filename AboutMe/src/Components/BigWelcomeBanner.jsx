@@ -10,12 +10,13 @@ export default function BigWelcomeBanner() {
         <div className="hi-there">
           <em>
             <ReactTyped
-              strings={["Hello there!\n"]}
+              strings={["Hello there!\n", "I am a &#32"]}
               typeSpeed={50}
-              backSpeed={180}
+              backSpeed={50}
+              showCursor={false}
             />
           </em>
-          <em>
+          {/* <em>
             <div>{"\n"}</div>
             <ReactTyped
               strings={["I am a &#32\n"]}
@@ -24,7 +25,7 @@ export default function BigWelcomeBanner() {
               startDelay={1900}
               showCursor={false}
             />
-          </em>
+          </em> */}
           <em>
             <ReactTyped
               strings={[
@@ -35,8 +36,9 @@ export default function BigWelcomeBanner() {
               ]}
               typeSpeed={50}
               backSpeed={50}
-              startDelay={2650}
+              startDelay={3000}
               backDelay={500}
+              showCursor={true}
             />
           </em>
         </div>
