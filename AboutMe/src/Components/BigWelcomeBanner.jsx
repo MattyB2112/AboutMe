@@ -53,7 +53,9 @@ export default function BigWelcomeBanner() {
           <div className="css">
             <img src={css} className="css" />
           </div>
-          <div className="javascript">3</div>
+          <div className="javascript">
+            <img src={javascript} className="javascript" />
+          </div>
         </div>
         <div className="language-logos-container-mid">
           <div className="html">1</div>
