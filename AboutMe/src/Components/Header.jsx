@@ -11,21 +11,17 @@ export default function Header() {
               style={({ isActive }) => {
                 return isActive
                   ? {
-                      borderRadius: "10px",
-                      borderBottom: "solid rgb(122, 19, 83)",
-                      color: "rgb(141, 24, 96)",
+                      color: "rgb(192, 41, 134)",
                       padding: 8,
                     }
                   : {
-                      borderRadius: "10px",
-                      border: "solid transparent",
                       padding: 8,
                       textDecoration: "none",
                       color: "inherit",
                     };
               }}
             >
-              <button>Home</button>
+              <button>Home 🏠</button>
             </NavLink>
           </div>
         </div>
@@ -36,21 +32,17 @@ export default function Header() {
               style={({ isActive }) => {
                 return isActive
                   ? {
-                      borderRadius: "10px",
-                      borderBottom: "solid rgb(122, 19, 83)",
-                      color: "rgb(141, 24, 96)",
+                      color: "rgb(192, 41, 134)",
                       padding: 8,
                     }
                   : {
-                      borderRadius: "10px",
-                      border: "solid transparent",
                       padding: 8,
                       textDecoration: "none",
                       color: "inherit",
                     };
               }}
             >
-              <button>About</button>
+              <button>About 💬</button>
             </NavLink>
           </div>
           <div className="right-header-element">
@@ -59,21 +51,17 @@ export default function Header() {
               style={({ isActive }) => {
                 return isActive
                   ? {
-                      borderRadius: "10px",
-                      borderBottom: "solid rgb(122, 19, 83)",
-                      color: "rgb(141, 24, 96)",
+                      color: "rgb(192, 41, 134)",
                       padding: 8,
                     }
                   : {
-                      borderRadius: "10px",
-                      border: "solid transparent",
                       padding: 8,
                       textDecoration: "none",
                       color: "inherit",
                     };
               }}
             >
-              <button>CV</button>
+              <button>CV 🗒️</button>
             </NavLink>
           </div>
           <div className="right-header-element">
@@ -82,21 +70,17 @@ export default function Header() {
               style={({ isActive }) => {
                 return isActive
                   ? {
-                      borderRadius: "10px",
-                      borderBottom: "solid rgb(122, 19, 83)",
-                      color: "rgb(141, 24, 96)",
+                      color: "rgb(192, 41, 134)",
                       padding: 8,
                     }
                   : {
-                      borderRadius: "10px",
-                      border: "solid transparent",
                       padding: 8,
                       textDecoration: "none",
                       color: "inherit",
                     };
               }}
             >
-              <button>Projects</button>
+              <button>Projects 🔧</button>
             </NavLink>
           </div>
           <div className="right-header-element">
@@ -105,21 +89,17 @@ export default function Header() {
               style={({ isActive }) => {
                 return isActive
                   ? {
-                      borderRadius: "10px",
-                      borderBottom: "solid rgb(122, 19, 83)",
-                      color: "rgb(141, 24, 96)",
+                      color: "rgb(192, 41, 134)",
                       padding: 8,
                     }
                   : {
-                      borderRadius: "10px",
-                      border: "solid transparent",
                       padding: 8,
                       textDecoration: "none",
                       color: "inherit",
                     };
               }}
             >
-              <button>Contact</button>
+              <button>Contact 📫</button>
             </NavLink>
           </div>
         </div>

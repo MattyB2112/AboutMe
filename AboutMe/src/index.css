@@ -25,8 +25,8 @@ a:hover {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  border: solid black;
-  min-height: 81.3vh;
+  /* border: solid black; */
+  min-height: 79.9vh;
   padding: 10px;
   margin: 10px;
 }
@@ -42,17 +42,17 @@ a:hover {
   padding-top: 10px;
   font-size: 20px;
   width: 600px;
+  text-align: justify;
 }
 
 .language-logos-container {
   padding: 10px;
-  margin: 10px;
-  width: 500px;
-  border: solid black;
+  margin-top: 20px;
+  width: 450px;
+  /* border: solid black; */
   font-size: 70px;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
   align-items: center;
 }
 
@@ -60,13 +60,33 @@ a:hover {
 .language-logos-container-mid,
 .language-logos-container-bottom {
   display: flex;
+  padding: 10px;
 }
 
+.language-logos-labels-top,
+.language-logos-labels-mid,
+.language-logos-labels-bottom {
+  width: 400px;
+  display: flex;
+  justify-content: space-evenly;
+
+  /* border: solid black; */
+}
+
+.language-label {
+  font-size: 20px;
+  /* border: solid black; */
+  display: flex;
+  justify-content: space-evenly;
+  width: 130px;
+}
 .html,
 .css,
-.javascript {
+.javascript,
+.react,
+.node {
   display: flex;
-  border: solid black;
+  /* border: solid black; */
   width: 120px;
   height: 120px;
   margin: 5px;
@@ -76,12 +96,11 @@ a:hover {
 
 /*HEADER*/
 .header-container {
-  height: 85px;
+  height: 75px;
   position: fixed;
   z-index: 1;
-  background-color: rgb(58, 84, 168);
-  border: solid rgb(21, 54, 161);
-  font-size: 40px;
+  background-color: rgb(46, 73, 161);
+  font-size: 30px;
   font-weight: 800;
   display: flex;
   justify-content: space-between;
@@ -95,8 +114,8 @@ a:hover {
 .right-header-container {
   display: flex;
   /* border: solid black; */
-  width: 800px;
-  justify-content: space-around;
+  width: 700px;
+  justify-content: space-evenly;
 }
 .left-header-element {
   /* border: solid black; */
@@ -114,7 +133,7 @@ a:hover {
 .about-container {
   padding: 10px;
   height: 551px;
-  border: solid black;
+  /* border: solid black; */
   margin-top: 120px;
 }
 
@@ -190,6 +209,7 @@ a:hover {
   color: #213547;
   width: 600px;
   margin-left: 10px;
+  border: solid black;
 }
 
 .trippin-images {
@@ -204,6 +224,11 @@ a:hover {
   display: flex;
   width: 150px;
   justify-content: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.trippin-image:hover {
+  transform: scale(1.2);
 }
 
 /*CONTACT*/
@@ -221,6 +246,7 @@ a:hover {
 
 .contact-text {
   margin-top: 10px;
+  margin-left: 20px;
   display: flex;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: 30px;
