@@ -52,53 +52,19 @@ export default function BigWelcomeBanner() {
       </div>
       <div className="language-logos-container">
         <div className="language-logos-container-top">
-          <div className="html">
-            <img src={html} className="html" />
-          </div>
-          <div className="css">
-            <img src={css} className="css" />
-          </div>
-          <div className="javascript">
-            <img src={javascript} className="javascript" />
-          </div>
-        </div>
-        <div className="language-logos-labels-top">
-          <div className="language-label">HTML5</div>
-          <div className="language-label">CSS3</div>
-          <div className="language-label">JavaScript</div>
+          <img src={html} className="language-logo" />
+          <img src={css} className="language-logo" />
+          <img src={javascript} className="language-logo" />
         </div>
         <div className="language-logos-container-mid">
-          <div className="html">
-            <img src={react} className="react" />
-          </div>
-          <div className="css">
-            <img src={node} className="node" />
-          </div>
-          <div className="javascript">
-            <img src={express} className="node" />
-          </div>
+          <img src={react} className="language-logo" />
+          <img src={node} className="language-logo" />
+          <img src={express} className="language-logo" />
         </div>
-        <div className="language-logos-labels-mid">
-          <div className="language-label">React.js</div>
-          <div className="language-label">Node.js</div>
-          <div className="language-label">Express.js</div>
-        </div>
-
         <div className="language-logos-container-bottom">
-          <div className="html">
-            <img src={SQL} className="node" />
-          </div>
-          <div className="css">
-            <img src={mongodb} className="node" />
-          </div>
-          <div className="javascript">
-            <img src={axios} className="node" />
-          </div>
-        </div>
-        <div className="language-logos-labels-bottom">
-          <div className="language-label">SQL</div>
-          <div className="language-label">MongoDB</div>
-          <div className="language-label">Axios</div>
+          <img src={SQL} className="language-logo" />
+          <img src={mongodb} className="language-logo" />
+          <img src={axios} className="language-logo" />
         </div>
       </div>
     </div>
