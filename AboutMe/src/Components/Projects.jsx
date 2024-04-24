@@ -15,7 +15,8 @@ export default function Projects() {
             News article-style website - Made during my course. Article data is
             stored in a SQL database. Endpoints were created to make queries to
             this data using Postgres. Frontend was coded in React and uses Axios
-            to make calls to the API.
+            to make calls to the API. Articles can be filtered by topic, and
+            sorted by number of votes and date posted.
           </div>
         </div>
         <div className="trippin-container">
@@ -24,9 +25,12 @@ export default function Projects() {
             <img src={imageTwo} className="trippin-image" />
           </div>
           <div className="trippin-info">
-            Trippin - Trip-planning app made for final project of my course.
+            Trippin - Trip-planning app made for the final project of my course.
             Backend database was created using MongoDB. Frontend was created
-            using React Native.
+            using React Native. Users create an upcoming trip with a name, start
+            and end-date, and then can add travel, stay, and activity info.
+            Members can be added by any users that have been added to the trip
+            but can only removed by the trip admin.
           </div>
         </div>
       </div>

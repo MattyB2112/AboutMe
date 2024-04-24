@@ -46,8 +46,8 @@ export default function BigWelcomeBanner() {
         <div className="welcome-text">
           Recent graduate of the Northcoders Software Development bootcamp, with
           specializations in HTML, JavaScript, CSS, Node.js, SQL, Axios,
-          Test-Driven Development, and React, and also experienced with React
-          Native and MongoDB.
+          Express, React, and Test-Driven Development, and also experience with
+          React Native and MongoDB.
         </div>
       </div>
       <div className="language-logos-container">

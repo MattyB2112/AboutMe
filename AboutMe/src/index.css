@@ -7,6 +7,10 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+html {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
 a {
   /* color: #646cff; */
 }
@@ -32,6 +36,7 @@ a:hover {
 }
 
 .typed-container {
+  margin: 5px;
   width: 700px;
   font-size: 70px;
   font-weight: 400;
@@ -39,6 +44,7 @@ a:hover {
 }
 
 .welcome-text {
+  margin: 5px;
   padding-top: 10px;
   font-size: 20px;
   width: 600px;
@@ -137,18 +143,21 @@ a:hover {
 /*ABOUT*/
 .about-container {
   padding: 10px;
-  height: 551px;
+  height: 596px;
   /* border: solid black; */
-  margin-top: 120px;
+  margin-top: 80px;
 }
 
 .about-header {
-  font-size: 80px;
-  color: rgb(205, 218, 226);
+  font-size: 60px;
+  color: #213547;
+  font-weight: 200;
 }
 
 .about-text {
-  font-size: 40px;
+  border: solid black;
+  width: 800px;
+  font-size: 20px;
   color: #213547;
 }
 
@@ -184,7 +193,6 @@ a:hover {
   display: flex;
   flex-direction: row;
   align-items: center;
-  border: solid black;
   margin: 20px;
 }
 
@@ -203,8 +211,7 @@ a:hover {
   font-size: 20px;
   color: #213547;
   width: 600px;
-  margin-left: 10px;
-  border: solid black;
+  margin-left: 20px;
 }
 
 .trippin-images {
@@ -215,6 +222,7 @@ a:hover {
 }
 
 .trippin-image {
+  margin: 10px;
   padding: 5px;
   display: flex;
   width: 150px;
@@ -284,11 +292,6 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh; */
-}
-
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
 }
 
 button {
