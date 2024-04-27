@@ -184,33 +184,32 @@ a:hover {
   margin-top: 120px;
   display: flex;
   flex-direction: row;
-  height: 650px;
+  height: 730px;
   justify-content: center;
   text-align: center;
   font-size: 20px;
 }
 
+/*nc news */
 .ncnews-container {
-  margin: 20px;
-  width: 400px;
+  display: flex;
+  width: 480px;
   height: 300px;
+  margin: 20px;
   position: relative;
   border: 3px rgb(46, 73, 161) solid;
 }
 
-.ncnews-underlay {
-  width: 400px;
-  height: 100%;
-  background-image: URL("../src/Images/n-and-n-pic.jpg");
-  background-size: 180px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
+.ncnews-image {
+  width: 480px;
+  height: 300px;
 }
 
-a {
-  text-decoration: none !important;
+.ncnews-underlay {
+  width: 480px;
+  height: 300px;
 }
+
 .ncnews-overlay,
 .trippin-overlay,
 .snake-overlay {
@@ -225,17 +224,17 @@ a {
 }
 
 .ncnews-container:hover .ncnews-overlay {
-  width: 100%;
+  width: 480px;
   height: 100%;
   color: #213547;
   background: rgb(189, 100, 197, 0.9);
 }
 
 /*trippin */
-
 .trippin-container {
   display: flex;
   align-content: center;
+  justify-content: center;
   width: 400px;
   height: 300px;
   margin: 20px;
@@ -261,7 +260,6 @@ a {
   padding: 5px;
   display: flex;
   width: 165px;
-  justify-content: center;
 }
 
 /*snake*/
@@ -275,15 +273,12 @@ a {
   position: relative;
   border: 3px rgb(46, 73, 161) solid;
 }
-
-.snake-underlay {
+.snake-images {
+  align-self: center;
+}
+.snake-image {
+  align-self: center;
   width: 250px;
-  height: auto;
-  background-image: URL("../src/Images/snake.png");
-  background-size: 100px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
 }
 
 .snake-container:hover .snake-overlay {

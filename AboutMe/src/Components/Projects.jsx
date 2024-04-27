@@ -1,5 +1,7 @@
+import nandn from "../Images/n-and-n-pic.jpg";
 import trippinOne from "../Images/trippin1.png";
 import trippinTwo from "../Images/trippin2.png";
+import snake from "../Images/snake.png";
 
 export default function Projects() {
   return (
@@ -7,6 +9,9 @@ export default function Projects() {
       <div className="projects-container">
         <div className="ncnews-container">
           <div className="ncnews-underlay"></div>
+          <div className="ncnews-images">
+            <img src={nandn} className="ncnews-image" />
+          </div>
           <a href="https://networkingandnews.netlify.app/">
             <div className="ncnews-overlay">
               <br />
@@ -36,6 +41,9 @@ export default function Projects() {
         </div>
         <div className="snake-container">
           <div className="snake-underlay"></div>
+          <div className="snake-images">
+            <img src={snake} className="snake-image" />
+          </div>
           <a href="https://mattssnakegame.netlify.app/">
             <div className="snake-overlay">
               <br />
