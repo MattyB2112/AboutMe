@@ -28,6 +28,7 @@ export default function BigWelcomeBanner() {
             typeSpeed={50}
             backSpeed={50}
             showCursor={false}
+            startDelay={300}
           />
           <ReactTyped
             strings={[
@@ -38,7 +39,7 @@ export default function BigWelcomeBanner() {
             ]}
             typeSpeed={50}
             backSpeed={50}
-            startDelay={400}
+            startDelay={700}
             backDelay={500}
             showCursor={true}
           />

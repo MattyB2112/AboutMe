@@ -7,11 +7,9 @@ export default function Projects() {
     <>
       <div className="projects-container">
         <div className="ncnews-container">
-          <a href="https://networkingandnews.netlify.app/">
-            <img src={imageOne} className="ncnews-image" />
-          </a>
-
-          <div className="ncnews-info">
+          <div className="ncnews-underlay"></div>
+          <div className="ncnews-overlay">
+            <br />
             News article-style website - Made during my course. Article data is
             stored in a SQL database. Endpoints were created to make queries to
             this data using Postgres. Frontend was coded in React and uses Axios
@@ -20,11 +18,13 @@ export default function Projects() {
           </div>
         </div>
         <div className="trippin-container">
+          <div className="trippin-underlay"></div>
           <div className="trippin-images">
             <img src={imageThree} className="trippin-image" />
             <img src={imageTwo} className="trippin-image" />
           </div>
-          <div className="trippin-info">
+          <div className="trippin-overlay">
+            <br />
             Trippin - Trip-planning app made for the final project of my course.
             Backend database was created using MongoDB. Frontend was created
             using React Native. Users create an upcoming trip with a name, start
