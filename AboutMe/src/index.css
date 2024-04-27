@@ -23,22 +23,21 @@ a:hover {
 .home-container {
   display: flex;
   flex-direction: row;
-  margin-top: 100px;
+  margin-top: 90px;
 }
 .welcome-banner-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /* border: solid black; */
-  min-height: 79.9vh;
+  min-height: 720px;
   padding: 10px;
-  margin: 10px;
+  margin: 50px;
 }
 
 .typed-container {
   margin: 5px;
   width: 700px;
-  font-size: 70px;
+  font-size: 75px;
   font-weight: 400;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
@@ -46,20 +45,21 @@ a:hover {
 .welcome-text {
   margin: 5px;
   padding-top: 10px;
-  font-size: 20px;
-  width: 600px;
+  font-size: 25px;
+  width: 700px;
   text-align: justify;
 }
 
 .language-logos-container {
   padding: 10px;
-  margin-top: 30px;
-  width: 450px;
-  /* border: solid black; */
+  margin-left: 60px;
+  margin-bottom: 30px;
+  width: 600px;
   font-size: 70px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 
 .language-logos-container-top,
@@ -72,9 +72,9 @@ a:hover {
 .language-logo {
   display: flex;
   /* border: solid black; */
-  width: 120px;
-  height: 120px;
-  margin: 10px;
+  width: 140px;
+  height: 140px;
+  margin: 20px;
   justify-content: center;
   align-items: center;
   overflow: hidden;
@@ -119,6 +119,7 @@ a:hover {
   color: rgb(205, 218, 226);
   width: 100%;
   text-shadow: 10px 10px solid black;
+  border-bottom: 2px solid rgb(23, 42, 105);
 }
 .left-header-container {
   /* border: solid black; */
@@ -166,7 +167,7 @@ a:hover {
 
 .react-pdf__Page__canvas {
   margin-top: 5 auto;
-  width: 120% !important;
+  width: 150% !important;
   height: 100% !important;
 }
 .pdf-container {
@@ -174,7 +175,7 @@ a:hover {
   justify-content: center;
   text-align: center;
   padding-top: 120px;
-  width: 90%;
+  width: 83%;
   margin-top: 10px;
 }
 
@@ -250,6 +251,21 @@ a:hover {
   text-align: center;
 }
 
+.trippin-link {
+  background-color: transparent;
+  border: none;
+  color: transparent;
+}
+
+.trippin-container:hover .trippin-link {
+  background-color: rgb(192, 41, 134, 0.9);
+  height: 20px;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  color: #213547;
+}
+
 .trippin-images {
   display: flex;
   justify-content: center;
@@ -290,9 +306,9 @@ a:hover {
 
 /*CONTACT*/
 .contact-container {
-  margin-top: 120px;
+  margin-top: 160px;
   padding: 10px;
-  height: 556px;
+  height: 690px;
   /* border: solid black; */
 }
 
@@ -302,7 +318,7 @@ a:hover {
 }
 
 .contact-text {
-  margin-top: 10px;
+  margin-top: 20px;
   margin-left: 20px;
   display: flex;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -348,7 +364,10 @@ body {
   min-height: 100vh; */
 }
 
-button {
+.header-button,
+.header-button,
+.header-button,
+.header-button {
   padding: 10px;
   background-color: transparent;
   color: inherit;
@@ -360,7 +379,7 @@ button {
   border: solid transparent;
   border-radius: 10px;
 }
-button:hover {
+.header-button:hover {
   background-color: solid black;
   color: rgb(192, 41, 134);
   font-weight: bold;

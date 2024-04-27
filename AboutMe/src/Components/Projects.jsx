@@ -37,6 +37,7 @@ export default function Projects() {
             and end-date, and then can add travel, stay, and activity info.
             Members can be added by any users that have been added to the trip
             but can only removed by the trip admin.
+            <br />
           </div>
         </div>
         <div className="snake-container">

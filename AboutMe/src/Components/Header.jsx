@@ -21,7 +21,7 @@ export default function Header() {
                     };
               }}
             >
-              <button>Home 🏠</button>
+              <button className="header-button">Home 🏠</button>
             </NavLink>
           </div>
         </div>
@@ -61,7 +61,7 @@ export default function Header() {
                     };
               }}
             >
-              <button>CV 🗒️</button>
+              <button className="header-button">CV 🗒️</button>
             </NavLink>
           </div>
           <div className="right-header-element">
@@ -80,7 +80,7 @@ export default function Header() {
                     };
               }}
             >
-              <button>Projects 🔧</button>
+              <button className="header-button">Projects 🔧</button>
             </NavLink>
           </div>
           <div className="right-header-element">
@@ -99,7 +99,7 @@ export default function Header() {
                     };
               }}
             >
-              <button>Contact 📫</button>
+              <button className="header-button">Contact 📫</button>
             </NavLink>
           </div>
         </div>
