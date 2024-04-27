@@ -26,7 +26,7 @@ export default function Header() {
           </div>
         </div>
         <div className="right-header-container">
-          <div className="right-header-element">
+          {/* <div className="right-header-element">
             <NavLink
               to="/about"
               style={({ isActive }) => {
@@ -44,7 +44,7 @@ export default function Header() {
             >
               <button>About 💬</button>
             </NavLink>
-          </div>
+          </div> */}
           <div className="right-header-element">
             <NavLink
               to="/cv"
