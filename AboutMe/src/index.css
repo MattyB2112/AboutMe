@@ -1,7 +1,7 @@
 :root {
   color-scheme: light dark;
   background-color: #242424;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   color: rgb(205, 218, 226);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -24,14 +24,15 @@ a:hover {
   display: flex;
   flex-direction: row;
   margin-top: 90px;
+  height: 780px;
 }
 .welcome-banner-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  min-height: 720px;
   padding: 10px;
   margin: 50px;
+  color: #213547;
 }
 
 .typed-container {
@@ -39,6 +40,7 @@ a:hover {
   width: 700px;
   font-size: 75px;
   font-weight: 400;
+  color: #213547;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
