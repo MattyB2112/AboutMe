@@ -20,22 +20,22 @@ export default function BigWelcomeBanner() {
         <div className="typed-container">
           <>
             Hi! I'm Matt
-            <br />|
+            <br />| I'm a
           </>
 
-          <ReactTyped
+          {/* <ReactTyped
             strings={["I'm a &#32"]}
             typeSpeed={50}
             backSpeed={50}
             showCursor={false}
             startDelay={300}
-          />
+          /> */}
           <ReactTyped
             strings={[
-              "proggrammer!\n",
-              "progammer!\n",
-              "programer!\n",
-              "coder!",
+              "&#32proggrammer!\n",
+              "&#32progammer!\n",
+              "&#32programer!\n",
+              "&#32coder!",
             ]}
             typeSpeed={50}
             backSpeed={50}
