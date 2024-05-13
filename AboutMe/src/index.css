@@ -167,17 +167,17 @@ a:hover {
 /*CV*/
 
 .react-pdf__Page__canvas {
-  margin-top: 5 auto;
-  width: 1000px;
-  height: 100%;
+  display: flex;
+  width: 800px !important;
+  height: auto !important;
+  /* border: solid black; */
 }
 .pdf-container {
   display: flex;
   justify-content: center;
   text-align: center;
-  padding-top: 120px;
-  width: 100%;
-  margin-top: 10px;
+  margin-top: 120px;
+  /* border: solid black; */
 }
 
 /*PROJECTS*/
