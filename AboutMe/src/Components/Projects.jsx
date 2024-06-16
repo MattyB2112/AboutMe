@@ -2,6 +2,7 @@ import nandn from "../Images/n-and-n-pic.jpg";
 import trippinOne from "../Images/trippin1.png";
 import trippinTwo from "../Images/trippin2.png";
 import snake from "../Images/snake.png";
+import fakery from "../Images/fakery.png";
 
 export default function Projects() {
   return (
@@ -49,6 +50,19 @@ export default function Projects() {
             <div className="snake-overlay">
               <br />
               Snake - Simple snake game made using HTML, CSS and JavaScript.
+            </div>
+          </a>
+        </div>
+        <div className="fakery-container">
+          <div className="fakery-underlay"></div>
+          <div className="fakery-images">
+            <img src={fakery} className="fakery-image" />
+          </div>
+          <a href="https://fakeryclothing.netlify.app/">
+            <div className="fakery-overlay">
+              <br />
+              Fakery Clothing - Clothes shopping website made using HTML, CSS,
+              JavaScript and React.
             </div>
           </a>
         </div>
